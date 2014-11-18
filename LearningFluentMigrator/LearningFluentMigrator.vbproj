@@ -82,6 +82,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MigrationsConfig.vb" />
+    <Compile Include="Migrations\000_InitVersionInfo.vb" />
     <Compile Include="Migrations\001_CreateUserTable.vb">
       <SubType>Code</SubType>
     </Compile>

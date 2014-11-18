@@ -8,9 +8,9 @@ Public Class MigrationsConfig
         Dim connectionString As String = "server=.\SQLEXPRESS;uid=common;pwd=common;database=Learning-Fluent-Migrator"
         Dim migrator As New Migrator(connectionString, "sqlserver2008")
 
-        '#If DEBUG Then
-        '            migrator.Migrate(runner => runner.MigrateDown(0))
-        '#End If
+#If DEBUG Then
+        migrator.Migrate(AddressOf MigrateInit)
+#End If
         migrator.Migrate(AddressOf MigrateUp)
     End Sub
 

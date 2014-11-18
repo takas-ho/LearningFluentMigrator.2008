@@ -1,7 +1,7 @@
 ﻿Imports FluentMigrator
 
 Namespace Migrations
-    <Migration(1)> Public Class CreateUserTable : Inherits Migration
+    <Migration(2)> Public Class CreateUserTable : Inherits Migration
 
         Public Overrides Sub Up()
             Create.Table("User") _
