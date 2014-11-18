@@ -40,7 +40,7 @@ Namespace Migrations
             Me._dbType = dbType
         End Sub
 
-        Public Shared Sub WriteText(ByVal s As String)
+        Private Shared Sub WriteText(ByVal s As String)
             System.Diagnostics.Debug.WriteLine(s)
         End Sub
 
