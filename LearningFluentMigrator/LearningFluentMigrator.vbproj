@@ -85,6 +85,7 @@
     <Compile Include="Migrations\001_CreateUserTable.vb">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Migrations\002_AddColumnPhoneOnUser.vb" />
     <Compile Include="Migrations\Migrator.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
